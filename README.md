@@ -119,16 +119,3 @@ hidden_layers = [128, 128]  # Network architecture
 ```bash
 pip install torch numpy gymnasium matplotlib
 ```
-
-**Note:** We use `gymnasium` (not `gym`). 
-
-For additional environments:
-```bash
-# For Box2D environments (LunarLander)
-pip install gymnasium[box2d]
-
-# For Atari games
-pip install gymnasium[atari]
-pip install gymnasium[accept-rom-license]
-```
-
