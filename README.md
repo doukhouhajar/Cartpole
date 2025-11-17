@@ -114,7 +114,7 @@ hidden_layers = [128, 128]  # Network architecture
 
 
 
-## 📝 Requirements
+## Requirements
 
 ```bash
 pip install torch numpy gymnasium matplotlib
